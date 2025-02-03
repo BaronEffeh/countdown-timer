@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="main_style.css">
+</head>
+<body>
+  <div class="timer-container">
+    <img src="britarch_logo.png" alt="Britarch Logo">
+    <h3>First Term Examination, 2024/2025 Academic Session</h3>
+    <h1>Countdown Timer</h1>
+    <div class="input-container">
+      <label for="time-input">Set Time (in minutes): </label>
+      <input type="number" id="time-input" placeholder="Enter time in minutes" min="1">
+      <button id="start-button">Start</button>
+    </div>
+    <div class="timer">
+      <span id="display-time">00:00:00</span>
+    </div>
+    <div class="controls">
+      <button id="pause-button" disabled>Pause</button>
+      <button id="stop-button" disabled>Stop</button>
+      <button id="reset-button" disabled>Reset</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+  <audio id="alarm-sound" src="mixkit-alarm-clock-beep-988.wav" preload="auto"></audio>
+</body>
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="main_style.css">
+</head>
+<body>
+  <div class="timer-container">
+    <h1>Countdown Timer</h1>
+    <div class="input-container">
+      <label for="time-input">Set Time (in seconds): </label>
+      <input type="number" id="time-input" placeholder="Enter time" min="1">
+      <button id="start-button">Start</button>
+    </div>
+    <div class="timer">
+      <span id="display-time">00:00:00</span>
+    </div>
+    <div class="controls">
+      <button id="pause-button" disabled>Pause</button>
+      <button id="stop-button" disabled>Stop</button>
+      <button id="reset-button" disabled>Reset</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html> -->
